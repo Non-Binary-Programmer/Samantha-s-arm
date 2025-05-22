@@ -93,7 +93,7 @@ public class Robot extends TimedRobot {
     if (forwardInput.get()) {
       motor.set(SPEED);
     } else if (backwardInput.get()) {
-      motor.set(SPEED);
+      motor.set(-SPEED);
     } else {
       motor.set(0);
     }
